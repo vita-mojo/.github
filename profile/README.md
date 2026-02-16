@@ -30,6 +30,22 @@ Kubernetes cluster is managed by Deckhouse. There are several ways to access and
 
 - [Deckhouse CLI](https://tools.kube.vitamojo.net/)
 
+**Kubernetes Infrastructure Repository:** [k8s-infra](https://github.com/vita-mojo/k8s-infra)
+
+This repository contains Helm charts and Kubernetes manifests for infrastructure components:
+
+- **backup-restic** - Backup solutions using Restic
+- **deckhouse** - Deckhouse module configurations and cluster resources
+- **istio** - Istio service mesh configuration
+- **knative** - Knative serving configuration
+- **knative-operator** - Knative operator deployment
+- **madison-nginx-proxy** - Nginx proxy configuration
+- **non-managed-resources** - Resources not managed by Helm
+- **redis** - Redis Failover cluster deployments
+- **redis-operator** - Redis Operator deployment
+- **signadot** - Signadot sandbox environment configuration
+- **user-authz** - User authorization configuration
+
 ### Observability
 - [Grafana](https://grafana.kube.vitamojo.net)
 - [Prometheus](https://grafana.kube.vitamojo.net/prometheus/graph)
